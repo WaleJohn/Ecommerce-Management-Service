@@ -1,7 +1,32 @@
+# Python
 .venv/
 __pycache__/
 .pytest_cache/
 *.pyc
+*.pyo
+*.pyd
+*.env
+
+# .NET / Visual Studio
 bin/
 obj/
+[Dd]ebug/
+[Rr]elease/
+.vs/
+*.user
+*.suo
+*.rsuser
+*.userosscache
+*.sln.docstates
+*.nupkg
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Terraform
 terraform/tfplan
