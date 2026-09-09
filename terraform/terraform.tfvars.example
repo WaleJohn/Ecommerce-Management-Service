@@ -1,0 +1,15 @@
+project_name = "ecommerce-api"
+environment  = "dev"
+location     = "eastus"
+
+# Optional. You can also set ARM_SUBSCRIPTION_ID or use your Azure CLI default.
+# subscription_id = "00000000-0000-0000-0000-000000000000"
+
+min_replicas = 1
+max_replicas = 3
+cpu          = 0.5
+memory       = "1Gi"
+
+tags = {
+  owner = "platform"
+}

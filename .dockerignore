@@ -1,0 +1,12 @@
+.pytest_cache
+.venv
+__pycache__
+*.pyc
+.git
+.mypy_cache
+.ruff_cache
+terraform
+tests
+requirements-dev.txt
+README.md
+docker-compose.yml
